@@ -1,0 +1,48 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "require": true,
+    "fetch": true,
+    "navigator": true,
+    "__NODE_ENV__": true,
+    "__DEV__": true,
+    "XMLHttpRequest": true,
+    "FormData": true,
+    "React$Element": true,
+    "window": true
+  },
+  "rules": {
+    "no-debugger": "off",
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "react/prop-types": "warn",
+    "react/no-unescaped-entities": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "root": true
+}

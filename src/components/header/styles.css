@@ -1,0 +1,21 @@
+.headerContainer {
+  height: 60px;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+}
+
+.headerOption {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 1.2;
+  font-size: 18px;
+}
